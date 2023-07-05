@@ -1,0 +1,78 @@
+from manim import *
+
+class Scene48(Scene):
+    def construct(self):
+        # draw a line down the middle of the screen
+        line = Line(start=UP*3, end=DOWN*3)
+
+        # text for left side of screen
+        text_left = Text("Old Solution").scale(1.5)
+        text_left.move_to(LEFT*3.2 + UP*3)
+
+        # text for right side of screen
+        text_right = Text("New Solution").scale(1.5)
+        text_right.move_to(RIGHT*3.2 + UP*3)
+        
+
+        text_expl_left = Text("Idea: Send Everything").scale(0.8)
+        text_expl_left.move_to(LEFT*3.2 + UP*1)
+
+        text_expl_right = Text("Idea: Send prime stuff").scale(0.8)
+        text_expl_right.move_to(RIGHT*3.2 + UP*1)
+
+
+
+        text_acc_left = MathTex(r"\text{Accuracy: } 100\%")
+        text_acc_left.move_to(LEFT*3.2)
+
+        text_acc_right = MathTex(r"\text{Accuracy: Hopefully High}")
+        text_acc_right.move_to(RIGHT*3.2)
+
+
+
+        text_compl_left = MathTex(r"\text{Communication: full string").scale(0.8)
+        text_compl_left.move_to(LEFT*3.2 + DOWN)
+
+        text_compl_right = MathTex(r"\text{Communication: } p \text{ and } a \bmod p").scale(0.8)
+        text_compl_right.move_to(RIGHT*3.2 + DOWN)
+
+
+
+        text_size = MathTex(r"\text{Complexity: } n \text{ bits}").scale(0.8)
+        text_size.move_to(LEFT*3.2 + DOWN*2)
+
+        text_size_right = MathTex(r"\text{Complexity: } << n \text{ bits ideally}").scale(0.8)
+        text_size_right.move_to(RIGHT*3.2 + DOWN*2)
+
+        self.play(
+            FadeIn(text_left),
+            FadeIn(text_right),
+            FadeIn(text_expl_left),
+            FadeIn(text_expl_right),
+            FadeIn(text_acc_left),
+            FadeIn(text_acc_right),
+            FadeIn(text_compl_left),
+            FadeIn(text_compl_right),
+            FadeIn(text_size),
+            FadeIn(text_size_right),
+            FadeIn(line)
+        )
+        self.wait(2)
+        new_text = MathTex(r"\text{Complexity: }\leq 6 \log_2 n \text{ bits}", color=GREEN).scale(0.8)
+        new_text.move_to(text_size_right.get_center())
+        self.play(Transform(text_size_right, new_text),
+                  text_size.animate.set_color(RED))
+        self.wait(2.5)
+        self.play(
+            FadeOut(text_left),
+            FadeOut(text_right),
+            FadeOut(text_expl_left),
+            FadeOut(text_expl_right),
+            FadeOut(text_acc_left),
+            FadeOut(text_acc_right),
+            FadeOut(text_compl_left),
+            FadeOut(text_compl_right),
+            FadeOut(text_size),
+            FadeOut(text_size_right),
+            FadeOut(line)
+        )
