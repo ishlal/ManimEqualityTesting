@@ -1,0 +1,10 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/ishaan/learn_manim/media/videos/intro/1080p60/partial_movie_files/Intro/2902699114_2657964688_223132457.mp4'
+file 'file:/Users/ishaan/learn_manim/media/videos/intro/1080p60/partial_movie_files/Intro/3931933789_1386679397_2492362731.mp4'
+file 'file:/Users/ishaan/learn_manim/media/videos/intro/1080p60/partial_movie_files/Intro/3931933789_2526496290_834000602.mp4'
+file 'file:/Users/ishaan/learn_manim/media/videos/intro/1080p60/partial_movie_files/Intro/3931933789_717601352_240196021.mp4'
+file 'file:/Users/ishaan/learn_manim/media/videos/intro/1080p60/partial_movie_files/Intro/3931933789_3898838791_1780398221.mp4'
+file 'file:/Users/ishaan/learn_manim/media/videos/intro/1080p60/partial_movie_files/Intro/3931933789_656310651_3704553885.mp4'
+file 'file:/Users/ishaan/learn_manim/media/videos/intro/1080p60/partial_movie_files/Intro/3931933789_190800790_3227471268.mp4'
+file 'file:/Users/ishaan/learn_manim/media/videos/intro/1080p60/partial_movie_files/Intro/3931933789_1879650982_17875583.mp4'
+file 'file:/Users/ishaan/learn_manim/media/videos/intro/1080p60/partial_movie_files/Intro/3931933789_190800790_2536923323.mp4'

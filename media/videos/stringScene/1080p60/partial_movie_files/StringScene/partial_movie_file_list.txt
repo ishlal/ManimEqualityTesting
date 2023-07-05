@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/ishaan/learn_manim/media/videos/stringScene/1080p60/partial_movie_files/StringScene/2902699114_1076466279_631829896.mp4'
+file 'file:/Users/ishaan/learn_manim/media/videos/stringScene/1080p60/partial_movie_files/StringScene/2902699114_1076466279_4115217372.mp4'
+file 'file:/Users/ishaan/learn_manim/media/videos/stringScene/1080p60/partial_movie_files/StringScene/3931933789_1574364722_2235412313.mp4'
+file 'file:/Users/ishaan/learn_manim/media/videos/stringScene/1080p60/partial_movie_files/StringScene/3931933789_837346112_233940155.mp4'
+file 'file:/Users/ishaan/learn_manim/media/videos/stringScene/1080p60/partial_movie_files/StringScene/3931933789_860174317_3283108254.mp4'
+file 'file:/Users/ishaan/learn_manim/media/videos/stringScene/1080p60/partial_movie_files/StringScene/3931933789_2526496290_590916581.mp4'

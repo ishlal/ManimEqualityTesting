@@ -1,0 +1,11 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/ishaan/learn_manim/media/videos/scene44/720p30/partial_movie_files/Scene44/3814802930_1430110633_223132457.mp4'
+file 'file:/Users/ishaan/learn_manim/media/videos/scene44/720p30/partial_movie_files/Scene44/371792034_1076466279_3296454919.mp4'
+file 'file:/Users/ishaan/learn_manim/media/videos/scene44/720p30/partial_movie_files/Scene44/371792034_3080099294_3966596324.mp4'
+file 'file:/Users/ishaan/learn_manim/media/videos/scene44/720p30/partial_movie_files/Scene44/371792034_125286499_948822260.mp4'
+file 'file:/Users/ishaan/learn_manim/media/videos/scene44/720p30/partial_movie_files/Scene44/371792034_823673137_630639373.mp4'
+file 'file:/Users/ishaan/learn_manim/media/videos/scene44/720p30/partial_movie_files/Scene44/371792034_125286499_2862156714.mp4'
+file 'file:/Users/ishaan/learn_manim/media/videos/scene44/720p30/partial_movie_files/Scene44/371792034_125286499_1146295340.mp4'
+file 'file:/Users/ishaan/learn_manim/media/videos/scene44/720p30/partial_movie_files/Scene44/371792034_3989165417_616055157.mp4'
+file 'file:/Users/ishaan/learn_manim/media/videos/scene44/720p30/partial_movie_files/Scene44/371792034_1707659051_4032561130.mp4'
+file 'file:/Users/ishaan/learn_manim/media/videos/scene44/720p30/partial_movie_files/Scene44/371792034_125286499_2938679159.mp4'

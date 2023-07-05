@@ -1,0 +1,9 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/ishaan/learn_manim/media/videos/scene78/1080p60/partial_movie_files/Scene7/2902699114_345352296_631829896.mp4'
+file 'file:/Users/ishaan/learn_manim/media/videos/scene78/1080p60/partial_movie_files/Scene7/2902699114_2714773886_4174018169.mp4'
+file 'file:/Users/ishaan/learn_manim/media/videos/scene78/1080p60/partial_movie_files/Scene7/3931933789_60045724_1751735344.mp4'
+file 'file:/Users/ishaan/learn_manim/media/videos/scene78/1080p60/partial_movie_files/Scene7/3931933789_670605691_1513267448.mp4'
+file 'file:/Users/ishaan/learn_manim/media/videos/scene78/1080p60/partial_movie_files/Scene7/3931933789_3073779459_878153458.mp4'
+file 'file:/Users/ishaan/learn_manim/media/videos/scene78/1080p60/partial_movie_files/Scene7/3931933789_3477542730_3653550896.mp4'
+file 'file:/Users/ishaan/learn_manim/media/videos/scene78/1080p60/partial_movie_files/Scene7/3931933789_3073779459_3989580849.mp4'
+file 'file:/Users/ishaan/learn_manim/media/videos/scene78/1080p60/partial_movie_files/Scene7/3931933789_3645633856_1344802054.mp4'

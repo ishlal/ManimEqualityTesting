@@ -1,0 +1,20 @@
+\documentclass[preview]{standalone}
+
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\begin{align*}
+\
+            a \bmod p = k &\implies a = pq + k, \text{for } q \in \mathbb{Z} \\ \
+                a\bmod p = b \bmod p &\implies b \bmod p = k\\ \
+                &\implies b = p\ell + k, \text{for }\ell \in \mathbb{Z} \\ \
+                |A - B| \bmod p &= |pq + k - (p\ell + k)| \bmod p \\ \
+                &= |pq - pl| \bmod p \\ \
+                &= |p(q - \ell)| \bmod p \\ \
+                &\boxed{=0} \\ \
+\end{align*}
+
+\end{document}
