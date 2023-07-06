@@ -8,8 +8,9 @@ class Scene24(Scene):
         text4 = MathTex(r"\text{3. Alice computes } h(a)")
         text5 = MathTex(r"\text{4. Alice sends } h \text{ and } h(a) \text{ to Bob}")
         text6 = MathTex(r"\text{5. Bob computes } h(b) \text{ using } h \text{ that he received from Alice}")
-        text7 = MathTex(r"\text{6. If } h(a) = h(b) \text{, Bob concludes equality with } 100\% \text{ accuracy}")
-        text8 = MathTex(r"\text{7. If } h(a) \neq h(b) \text{, Bob concludes inequality with high accuracy}")
+        text7 = MathTex(r"\text{6. If } h(a) = h(b) \text{, Bob concludes equality }}")
+        text8 = MathTex(r"\text{7. If } h(a) \neq h(b) \text{, Bob concludes inequality}")
+        text9 = MathTex(r"\text{Bob will be correct with very high probability}", color=YELLOW)
 
         text2.next_to(text1, DOWN)
         text3.next_to(text2, DOWN)
@@ -18,6 +19,7 @@ class Scene24(Scene):
         text6.next_to(text5, DOWN)
         text7.next_to(text6, DOWN)
         text8.next_to(text7, DOWN)
+        text9.next_to(text8, DOWN)
 
         self.play(Write(text1), run_time=2)
         self.wait(0.5)
@@ -34,5 +36,7 @@ class Scene24(Scene):
         self.play(Write(text7), run_time=4)
         self.wait(3)
         self.play(Write(text8), run_time=4)
+        self.wait(3)
+        self.play(Write(text9), run_time=3)
         self.wait(5)
 
